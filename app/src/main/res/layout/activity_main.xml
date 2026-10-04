@@ -151,4 +151,70 @@
         app:layout_constraintStart_toEndOf="@id/shutter"
         app:layout_constraintTop_toTopOf="@id/shutter" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/enhance_last_photo"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/smaller_margin"
+        android:background="@drawable/camera_button_background"
+        android:contentDescription="@string/enhance_photo"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:minWidth="@dimen/icon_size"
+        android:minHeight="@dimen/icon_size"
+        android:text="@string/enhance_photo_short"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@id/last_photo_video_preview"
+        app:layout_constraintEnd_toEndOf="@id/last_photo_video_preview"
+        app:layout_constraintStart_toStartOf="@id/last_photo_video_preview" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/photo_review"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/photo_review_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:contentDescription="@string/click_to_resume_preview"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toTopOf="@id/photo_review_hint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/photo_review_hint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/medium_margin"
+            android:text="@string/click_to_resume_preview"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@id/photo_review_enhance"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/photo_review_enhance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_margin"
+            android:text="@string/enhance_photo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -44,4 +44,12 @@
     <string name="save_photo_metadata">Įrašyti į nuotraukas EXIF metaduomenis</string>
     <string name="photo_compression_quality">Nuotraukų glaudinimo kokybė</string>
     <string name="shutter">Sklendė</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Pagerinti raišką (4×)</string>
+    <string name="enhancing_photo">Gerinama nuotrauka…</string>
+    <string name="enhance_photo_saved">Pagerinta nuotrauka išsaugota</string>
+    <string name="enhance_photo_failed">Nepavyko pagerinti šios nuotraukos</string>
+    <string name="enhance_photo_too_large">Ši nuotrauka per didelė šiam įrenginiui. Nustatymuose vėl įjunkite mažinimą, jei jis išjungtas.</string>
+    <string name="shrink_before_enhance">Prieš gerinant sumažinti nuotraukas, didesnes nei 1 megapikselis</string>
 </resources>

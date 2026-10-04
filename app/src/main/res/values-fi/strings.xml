@@ -46,4 +46,12 @@
     <string name="video">Video</string>
     <string name="save_photo_video_location">Tallenna kuvien ja videoiden sijainnit</string>
     <string name="max_brightness">Näytönkirkkauden maksimi esikatselussa</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Paranna tarkkuutta (4×)</string>
+    <string name="enhancing_photo">Parannetaan kuvaa…</string>
+    <string name="enhance_photo_saved">Parannettu kuva tallennettu</string>
+    <string name="enhance_photo_failed">Kuvaa ei voitu parantaa</string>
+    <string name="enhance_photo_too_large">Tämä kuva on liian suuri tälle laitteelle. Ota pienennys uudelleen käyttöön asetuksissa, jos se on pois päältä.</string>
+    <string name="shrink_before_enhance">Pienennä yli 1 megapikselin kuvat ennen parantamista</string>
 </resources>

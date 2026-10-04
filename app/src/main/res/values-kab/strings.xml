@@ -43,4 +43,12 @@
     <string name="save_photo_video_location">Sekles adig n tewlaft akked tvidyut</string>
     <string name="photo_compression_quality">Taɣara n usekkussem n tewlaft</string>
     <string name="max_brightness">Abruṛeq n ugdil afellay deg teskant</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Snerni tabadut (4×)</string>
+    <string name="enhancing_photo">Aneqqes n tugna…</string>
+    <string name="enhance_photo_saved">Yettwasekles tugna yettwasnernay</string>
+    <string name="enhance_photo_failed">Ur izmir ara ad isnerni tugna-agi</string>
+    <string name="enhance_photo_too_large">Tugna-agi meqqer aṭas i yibenk-agi. Sserked-d tikci meẓẓi deg yiɣewwaren ma yella yensa.</string>
+    <string name="shrink_before_enhance">Sseẓẓay tugniwin nnig 1 megapixel uqbel ad tent-tesnerniḍ</string>
 </resources>

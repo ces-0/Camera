@@ -46,4 +46,12 @@
     <string name="change_resolution">Athrú Rún</string>
     <string name="faq_1_text">Braitheann sé ar do sprioc. Chun críocha cineálach, molann an chuid is mó daoine 75%-80% a úsáid, nuair a bhíonn an íomhá fós ar chaighdeán fíor-mhaith, ach laghdaítear méid an chomhaid go suntasach i gcomparáid le 100%.</string>
     <string name="max_brightness">Uasmhéid gile scáileáin sa réamhamharc</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Feabhsaigh an taifeach (4×)</string>
+    <string name="enhancing_photo">Ag feabhsú na grianghraife…</string>
+    <string name="enhance_photo_saved">Sábháladh an ghrianghraf feabhsaithe</string>
+    <string name="enhance_photo_failed">Níorbh fhéidir an grianghraf seo a fheabhsú</string>
+    <string name="enhance_photo_too_large">Tá an grianghraf seo rómhór don ghléas seo. Cas an laghdú air arís i Socruithe má tá sé múchta.</string>
+    <string name="shrink_before_enhance">Laghdaigh grianghraif os cionn 1 meigeaphicteil roimh fheabhsú</string>
 </resources>

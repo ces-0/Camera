@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Uzlobuot izšķirtspieju (4×)</string>
+    <string name="enhancing_photo">Uzloboj foto…</string>
+    <string name="enhance_photo_saved">Uzlobuotais foto saglobuots</string>
+    <string name="enhance_photo_failed">Nav izadevs uzlobuot itū foto</string>
+    <string name="enhance_photo_too_large">Itei foto ir par lelu itai īreičei. Īslādziet samazynuošonu īstatiejumūs, ka jei ir izslāgta.</string>
+    <string name="shrink_before_enhance">Pyrma uzlobuošonys samazynuot foto, kas leluokys par 1 megapikseli</string>
+</resources>

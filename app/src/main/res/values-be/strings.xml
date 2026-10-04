@@ -46,4 +46,12 @@
     <string name="toggle_timer">Пераключыць рэжым таймера</string>
     <string name="save_photo_video_location">Захаваць месца для здымкаў і відэа</string>
     <string name="max_brightness">Максімальная яркасць экрана пры праглядзе</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Палепшыць раздзяляльнасць (4×)</string>
+    <string name="enhancing_photo">Паляпшэнне фота…</string>
+    <string name="enhance_photo_saved">Палепшанае фота захавана</string>
+    <string name="enhance_photo_failed">Не ўдалося палепшыць гэта фота</string>
+    <string name="enhance_photo_too_large">Гэта фота занадта вялікае для гэтай прылады. Зноў уключыце памяншэнне ў Наладах, калі яно выключана.</string>
+    <string name="shrink_before_enhance">Памяншаць фота больш за 1 мегапіксель перад паляпшэннем</string>
 </resources>

@@ -139,6 +139,7 @@ detekt {
 
 dependencies {
     implementation(libs.fossify.commons)
+    implementation(libs.onnxruntime.android)
     implementation(libs.bundles.androidx.camera)
     implementation(libs.androidx.documentfile)
     implementation(libs.androidx.exifinterface)

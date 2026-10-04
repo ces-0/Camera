@@ -46,4 +46,12 @@
     <string name="photo_compression_quality">کیفیت فشرده‌سازی عکس</string>
     <string name="shutter">شاتر</string>
     <string name="max_brightness">حداکثر روشنایی صفحه در پیش‌نمایش</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">بهبود وضوح (۴×)</string>
+    <string name="enhancing_photo">در حال بهبود عکس…</string>
+    <string name="enhance_photo_saved">عکس بهبودیافته ذخیره شد</string>
+    <string name="enhance_photo_failed">این عکس بهبود داده نشد</string>
+    <string name="enhance_photo_too_large">این عکس برای این دستگاه خیلی بزرگ است. اگر کوچک‌سازی خاموش است، آن را در تنظیمات دوباره روشن کنید.</string>
+    <string name="shrink_before_enhance">کوچک کردن عکس‌های بزرگ‌تر از ۱ مگاپیکسل پیش از بهبود</string>
 </resources>

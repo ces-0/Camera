@@ -18,4 +18,12 @@
     <string name="shutter_sound">آرنگ شاتر</string>
     <string name="video">ویدیو</string>
     <string name="shutter">شاتر</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">بئتر کردن وضوح (4×)</string>
+    <string name="enhancing_photo">عسگ د بئتر ابۊ…</string>
+    <string name="enhance_photo_saved">عسگ بئتر بیه ذخیره ابۊ</string>
+    <string name="enhance_photo_failed">ای عسگ بئتر نوابۊ</string>
+    <string name="enhance_photo_too_large">ای عسگ سی ای دستگاه خئل گپ ه. ار کوچیک کردن کوشت ه، د تنظیمات دووارته روشن کن.</string>
+    <string name="shrink_before_enhance">قبل بئتر کردن، عسگیا گپ‌تر ز 1 مگاپیکسل کوچیک کن</string>
 </resources>

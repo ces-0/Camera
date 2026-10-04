@@ -46,4 +46,12 @@
     <string name="shutter">Obturador</string>
     <string name="save_photo_video_location">Salvar localização de fotos e vídeos</string>
     <string name="max_brightness">Brilho máximo da tela na visualização</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Melhorar resolução (4×)</string>
+    <string name="enhancing_photo">Melhorando a foto…</string>
+    <string name="enhance_photo_saved">Foto melhorada salva</string>
+    <string name="enhance_photo_failed">Não foi possível melhorar esta foto</string>
+    <string name="enhance_photo_too_large">Esta foto é grande demais para este dispositivo. Ative de novo a redução nas Configurações, se ela estiver desligada.</string>
+    <string name="shrink_before_enhance">Reduzir fotos com mais de 1 megapixel antes de melhorar</string>
 </resources>

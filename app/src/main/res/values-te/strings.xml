@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">రిజల్యూషన్ మెరుగుపరచండి (4×)</string>
+    <string name="enhancing_photo">ఫోటో మెరుగుపరచబడుతోంది…</string>
+    <string name="enhance_photo_saved">మెరుగైన ఫోటో సేవ్ చేయబడింది</string>
+    <string name="enhance_photo_failed">ఈ ఫోటోను మెరుగుపరచలేకపోయాం</string>
+    <string name="enhance_photo_too_large">ఈ ఫోటో ఈ పరికరానికి చాలా పెద్దది. కుదింపు ఆఫ్‌లో ఉంటే సెట్టింగ్‌లలో మళ్లీ ఆన్ చేయండి.</string>
+    <string name="shrink_before_enhance">మెరుగుపరిచే ముందు 1 మెగాపిక్సెల్ కంటే పెద్ద ఫోటోలను కుదించండి</string>
+</resources>

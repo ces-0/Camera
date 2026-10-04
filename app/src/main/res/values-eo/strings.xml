@@ -46,4 +46,12 @@
     <string name="photo_compression_quality">Kvalito de fota densigo</string>
     <string name="change_resolution">Ŝanĝi distingivon</string>
     <string name="max_brightness">Maksimuma ekranheleco en antaŭrigardo</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Plibonigi distingivon (4×)</string>
+    <string name="enhancing_photo">Plibonigas la foton…</string>
+    <string name="enhance_photo_saved">Plibonigita foto konservita</string>
+    <string name="enhance_photo_failed">Ne eblis plibonigi ĉi tiun foton</string>
+    <string name="enhance_photo_too_large">Ĉi tiu foto estas tro granda por ĉi tiu aparato. Reŝaltu la malgrandigon en Agordoj, se ĝi estas malŝaltita.</string>
+    <string name="shrink_before_enhance">Malgrandigi fotojn super 1 megapikselo antaŭ plibonigo</string>
 </resources>

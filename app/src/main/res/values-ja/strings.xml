@@ -45,4 +45,12 @@
     <string name="photo_compression_quality">写真の圧縮品質</string>
     <string name="shutter">シャッター</string>
     <string name="save_photo_video_location">写真と動画の位置情報を保存</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">解像度を強化（4倍）</string>
+    <string name="enhancing_photo">写真を強化しています…</string>
+    <string name="enhance_photo_saved">強化した写真を保存しました</string>
+    <string name="enhance_photo_failed">この写真を強化できませんでした</string>
+    <string name="enhance_photo_too_large">この写真は大きすぎて、この端末では強化できません。縮小をオフにしている場合は設定でオンに戻してください。</string>
+    <string name="shrink_before_enhance">強化する前に100万画素を超える写真を縮小する</string>
 </resources>

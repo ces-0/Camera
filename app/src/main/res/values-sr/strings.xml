@@ -45,4 +45,12 @@
     <string name="shutter">Затварач</string>
     <string name="save_photo_video_location">Сачувај локацију фотографије и видеа</string>
     <string name="toggle_timer">Пребаци на режим тајмера</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Побољшај резолуцију (4×)</string>
+    <string name="enhancing_photo">Побољшавање фотографије…</string>
+    <string name="enhance_photo_saved">Побољшана фотографија је сачувана</string>
+    <string name="enhance_photo_failed">Није могуће побољшати ову фотографију</string>
+    <string name="enhance_photo_too_large">Ова фотографија је превелика за овај уређај. Поново укључите смањивање у Подешавањима ако је искључено.</string>
+    <string name="shrink_before_enhance">Смањи фотографије веће од 1 мегапиксела пре побољшања</string>
 </resources>

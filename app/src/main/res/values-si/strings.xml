@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">විභේදනය වැඩි දියුණු කරන්න (4×)</string>
+    <string name="enhancing_photo">ඡායාරූපය වැඩි දියුණු කරමින්…</string>
+    <string name="enhance_photo_saved">වැඩි දියුණු කළ ඡායාරූපය සුරකින ලදි</string>
+    <string name="enhance_photo_failed">මෙම ඡායාරූපය වැඩි දියුණු කළ නොහැකි විය</string>
+    <string name="enhance_photo_too_large">මෙම ඡායාරූපය මෙම උපාංගයට විශාල වැඩිය. කුඩා කිරීම අක්‍රිය නම් සැකසුම් තුළ නැවත සක්‍රිය කරන්න.</string>
+    <string name="shrink_before_enhance">වැඩි දියුණු කිරීමට පෙර මෙගාපික්සල් 1 ට වැඩි ඡායාරූප කුඩා කරන්න</string>
+</resources>

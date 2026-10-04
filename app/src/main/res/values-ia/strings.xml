@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">Camera</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Meliorar resolution (4×)</string>
+    <string name="enhancing_photo">Meliorante le photo…</string>
+    <string name="enhance_photo_saved">Photo meliorate salveguardate</string>
+    <string name="enhance_photo_failed">Non poteva meliorar iste photo</string>
+    <string name="enhance_photo_too_large">Iste photo es troppo grande pro iste apparato. Reactiva le reduction in Parametros si illo es inactive.</string>
+    <string name="shrink_before_enhance">Reducer photos supra 1 megapixel ante de meliorar</string>
 </resources>

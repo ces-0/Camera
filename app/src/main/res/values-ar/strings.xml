@@ -46,4 +46,12 @@
     <string name="photo_compression_quality">جودة ضغط الصور</string>
     <string name="shutter">الغالق</string>
     <string name="max_brightness">أقصى سطوع للشاشة في المعاينة</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">تحسين الدقة (4×)</string>
+    <string name="enhancing_photo">جارٍ تحسين الصورة…</string>
+    <string name="enhance_photo_saved">تم حفظ الصورة المحسّنة</string>
+    <string name="enhance_photo_failed">تعذر تحسين هذه الصورة</string>
+    <string name="enhance_photo_too_large">هذه الصورة أكبر من أن تُحسَّن على هذا الجهاز. أعد تشغيل التصغير في الإعدادات إذا كان متوقفًا.</string>
+    <string name="shrink_before_enhance">تصغير الصور التي تتجاوز 1 ميغابكسل قبل التحسين</string>
 </resources>

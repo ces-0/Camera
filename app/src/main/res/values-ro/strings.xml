@@ -46,4 +46,12 @@
     <string name="toggle_timer">Comutare temporizator</string>
     <string name="video">Video</string>
     <string name="max_brightness">Luminozitatea maximă a ecranului în previzualizare</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Îmbunătățește rezoluția (4×)</string>
+    <string name="enhancing_photo">Se îmbunătățește fotografia…</string>
+    <string name="enhance_photo_saved">Fotografia îmbunătățită a fost salvată</string>
+    <string name="enhance_photo_failed">Nu s-a putut îmbunătăți această fotografie</string>
+    <string name="enhance_photo_too_large">Această fotografie este prea mare pentru acest dispozitiv. Reactivează micșorarea în Setări dacă este oprită.</string>
+    <string name="shrink_before_enhance">Micșorează fotografiile de peste 1 megapixel înainte de îmbunătățire</string>
 </resources>

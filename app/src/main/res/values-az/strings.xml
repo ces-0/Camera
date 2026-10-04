@@ -45,4 +45,12 @@
     <string name="toggle_timer">Taymer moduna keçid</string>
     <string name="video">Video</string>
     <string name="save_photo_video_location">Foto və video məkanını yaddaşda saxlayın</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Əksetməni yaxşılaşdır (4×)</string>
+    <string name="enhancing_photo">Foto yaxşılaşdırılır…</string>
+    <string name="enhance_photo_saved">Yaxşılaşdırılmış foto yadda saxlandı</string>
+    <string name="enhance_photo_failed">Bu fotonu yaxşılaşdırmaq mümkün olmadı</string>
+    <string name="enhance_photo_too_large">Bu foto bu cihaz üçün çox böyükdür. Söndürülübsə, Ayarlarda kiçiltməni yenidən yandırın.</string>
+    <string name="shrink_before_enhance">Yaxşılaşdırmadan əvvəl 1 meqapikseldən böyük fotoları kiçilt</string>
 </resources>

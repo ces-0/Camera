@@ -46,4 +46,12 @@
     <string name="shutter">Obturador</string>
     <string name="video">Vídeo</string>
     <string name="max_brightness">Brillo máximo de la pantalla en la vista previa</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Mejorar resolución (4×)</string>
+    <string name="enhancing_photo">Mejorando la foto…</string>
+    <string name="enhance_photo_saved">Foto mejorada guardada</string>
+    <string name="enhance_photo_failed">No se pudo mejorar esta foto</string>
+    <string name="enhance_photo_too_large">Esta foto es demasiado grande para este dispositivo. Vuelve a activar la reducción en Ajustes si está desactivada.</string>
+    <string name="shrink_before_enhance">Reducir las fotos de más de 1 megapíxel antes de mejorar</string>
 </resources>

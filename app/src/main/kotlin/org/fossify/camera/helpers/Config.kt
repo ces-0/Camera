@@ -103,4 +103,12 @@ class Config(context: Context) : BaseConfig(context) {
             ?: TimerMode.OFF
         set(timerMode) = prefs.edit().putInt(TIMER_MODE, timerMode.ordinal).apply()
 
+    var showPreview: Boolean
+        get() = prefs.getBoolean(SHOW_PREVIEW, false)
+        set(showPreview) = prefs.edit().putBoolean(SHOW_PREVIEW, showPreview).apply()
+
+    var shrinkBeforeEnhance: Boolean
+        get() = prefs.getBoolean(SHRINK_BEFORE_ENHANCE, true)
+        set(shrinkBeforeEnhance) = prefs.edit().putBoolean(SHRINK_BEFORE_ENHANCE, shrinkBeforeEnhance).apply()
+
 }

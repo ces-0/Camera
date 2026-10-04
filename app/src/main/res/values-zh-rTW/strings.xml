@@ -46,4 +46,12 @@
     <string name="save_photo_video_location">儲存照片和影片位置</string>
     <string name="toggle_photo_video">切換照片/影片模式</string>
     <string name="max_brightness">預覽時將螢幕亮度調整至最亮</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">增強解析度（4 倍）</string>
+    <string name="enhancing_photo">正在增強圖片…</string>
+    <string name="enhance_photo_saved">已儲存增強後的圖片</string>
+    <string name="enhance_photo_failed">無法增強這張圖片</string>
+    <string name="enhance_photo_too_large">這張圖片太大，此裝置無法增強。若已關閉縮小，請在設定中重新開啟。</string>
+    <string name="shrink_before_enhance">增強前先縮小超過 100 萬像素的圖片</string>
 </resources>

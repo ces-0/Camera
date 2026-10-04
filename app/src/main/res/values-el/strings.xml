@@ -45,4 +45,12 @@
     <string name="save_photo_video_location">Αποθήκευση τοποθεσίας φωτογραφιών και βίντεο</string>
     <string name="photo_compression_quality">Ποιότητα συμπίεσης φωτογραφιών</string>
     <string name="shutter">Κλείστρο</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Βελτίωση ανάλυσης (4×)</string>
+    <string name="enhancing_photo">Βελτίωση φωτογραφίας…</string>
+    <string name="enhance_photo_saved">Η βελτιωμένη φωτογραφία αποθηκεύτηκε</string>
+    <string name="enhance_photo_failed">Δεν ήταν δυνατή η βελτίωση αυτής της φωτογραφίας</string>
+    <string name="enhance_photo_too_large">Αυτή η φωτογραφία είναι πολύ μεγάλη για αυτήν τη συσκευή. Ενεργοποιήστε ξανά τη σμίκρυνση στις Ρυθμίσεις αν είναι ανενεργή.</string>
+    <string name="shrink_before_enhance">Σμίκρυνση φωτογραφιών άνω του 1 megapixel πριν από τη βελτίωση</string>
 </resources>

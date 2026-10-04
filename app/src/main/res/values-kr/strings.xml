@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Enhance (4×)</string>
+    <string name="enhancing_photo">Enhancing photo…</string>
+    <string name="enhance_photo_saved">Enhanced photo saved</string>
+    <string name="enhance_photo_failed">Could not enhance this photo</string>
+    <string name="enhance_photo_too_large">This photo is too large to enhance on this device. Turn shrinking back on in Settings if it is off.</string>
+    <string name="shrink_before_enhance">Shrink photos over 1 megapixel before enhancing</string>
+</resources>

@@ -46,4 +46,12 @@
     <string name="photo_compression_quality">Kvalita kompresie fotiek</string>
     <string name="shutter">Spúšť</string>
     <string name="max_brightness">Jas</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Vylepšiť rozlíšenie (4×)</string>
+    <string name="enhancing_photo">Vylepšovanie fotky…</string>
+    <string name="enhance_photo_saved">Vylepšená fotka uložená</string>
+    <string name="enhance_photo_failed">Túto fotku sa nepodarilo vylepšiť</string>
+    <string name="enhance_photo_too_large">Táto fotka je pre toto zariadenie príliš veľká. Znova zapnite zmenšenie v Nastaveniach, ak je vypnuté.</string>
+    <string name="shrink_before_enhance">Pred vylepšením zmenšiť fotky nad 1 megapixel</string>
 </resources>

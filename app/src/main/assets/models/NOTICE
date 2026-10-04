@@ -1,0 +1,65 @@
+Real-ESRGAN weights bundled with this app
+==========================================
+
+File: realesr-general-x4v3.onnx
+SHA-256: 47710b200e8ea23e90cc4193bd9e6f3302f163db94865673c843dd12e2344b8a
+
+Source weights SHA-256 (realesr-general-x4v3.pth):
+8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292
+
+This ONNX model was exported from the official PyTorch weights
+realesr-general-x4v3.pth, published by Xintao Wang in the Real-ESRGAN
+project:
+
+https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth
+
+The network is the official compact 4x model (SRVGGNetCompact,
+num_feat=64, num_conv=32, upscale=4, PReLU), described as
+"realesr-general-x4v3" in that project. It is the small general-scene
+x4 model, suitable for running on a phone. The export script in
+tools/export_realesrgan_onnx.py reloads those weights and writes this
+file. No other project's conversion code is used.
+
+Real-ESRGAN is licensed under the BSD 3-Clause License:
+
+BSD 3-Clause License
+
+Copyright (c) 2021, Xintao Wang
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Inference runtime
+=================
+
+The app runs the model with ONNX Runtime for Android
+(com.microsoft.onnxruntime:onnxruntime-android). ONNX Runtime is
+licensed under the MIT License:
+
+https://github.com/microsoft/onnxruntime/blob/main/LICENSE
+
+The runtime is fetched as a build dependency. It is not copied from
+another gallery or super-resolution application.

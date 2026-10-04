@@ -46,4 +46,12 @@
     <string name="shutter">Otturatore</string>
     <string name="video">Video</string>
     <string name="max_brightness">Luminosità massima dello schermo in anteprima</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Migliora risoluzione (4×)</string>
+    <string name="enhancing_photo">Miglioramento della foto…</string>
+    <string name="enhance_photo_saved">Foto migliorata salvata</string>
+    <string name="enhance_photo_failed">Impossibile migliorare questa foto</string>
+    <string name="enhance_photo_too_large">Questa foto è troppo grande per questo dispositivo. Riattiva la riduzione nelle Impostazioni se è disattivata.</string>
+    <string name="shrink_before_enhance">Riduci le foto oltre 1 megapixel prima di migliorarle</string>
 </resources>
