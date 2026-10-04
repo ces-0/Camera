@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">Не удалось улучшить это фото</string>
     <string name="enhance_photo_too_large">Это фото слишком большое для этого устройства. Снова включите уменьшение в Настройках, если оно выключено.</string>
     <string name="shrink_before_enhance">Уменьшать фото больше 1 мегапикселя перед улучшением</string>
+    <string name="compare_photo">Сравнить</string>
 </resources>

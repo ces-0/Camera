@@ -7,4 +7,5 @@
     <string name="enhance_photo_failed">ⵓⵔ ⵉⵣⵎⵉⵔ ⴰⴷ ⵉⵜⵜⵓⵙⵙⵖⵓⴷ ⵜⵡⵍⴰⴼⵜ ⴰⴷ</string>
     <string name="enhance_photo_too_large">ⵜⵡⵍⴰⴼⵜ ⴰⴷ ⵉⵎⵇⵇⵓⵔ ⴱⴰⵀⵔⴰ ⵉ ⵓⵙⵙⵉⵙⴷ ⴰⴷ. ⵙⵙⵔⵖⴷ ⴷⴰⵖ ⴰⵙⵎⵥⵥⵉ ⴳ ⵉⵙⵖⴰⵍ ⵎⴽ ⵉⵜⵜⵡⴰⵏⵙ.</string>
     <string name="shrink_before_enhance">ⵙⵎⵥⵥⵉ ⵜⵉⵡⵍⴰⴼⵉⵏ ⵏⵏⵉ ⵉⴳⴳⵓⵜⵏ ⵅⴼ 1 ⵎⵉⴳⴰⴱⵉⴽⵙⵉⵍ ⵓⵔ ⵜⴰ ⵜⵙⵙⵖⵓⴷⴷ</string>
+    <string name="compare_photo">ⵙⵎⵣⴰⵣⴰⵍ</string>
 </resources>

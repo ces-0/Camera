@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">Kunne ikke forbedre dette foto</string>
     <string name="enhance_photo_too_large">Dette foto er for stort til denne enhed. Slå formindskelse til igen under Indstillinger, hvis den er slået fra.</string>
     <string name="shrink_before_enhance">Formindsk fotos over 1 megapixel før forbedring</string>
+    <string name="compare_photo">Sammenlign</string>
 </resources>

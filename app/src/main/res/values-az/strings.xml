@@ -53,4 +53,5 @@
     <string name="enhance_photo_failed">Bu fotonu yaxşılaşdırmaq mümkün olmadı</string>
     <string name="enhance_photo_too_large">Bu foto bu cihaz üçün çox böyükdür. Söndürülübsə, Ayarlarda kiçiltməni yenidən yandırın.</string>
     <string name="shrink_before_enhance">Yaxşılaşdırmadan əvvəl 1 meqapikseldən böyük fotoları kiçilt</string>
+    <string name="compare_photo">Müqayisə et</string>
 </resources>

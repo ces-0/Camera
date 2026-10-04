@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">Ne eblis plibonigi ĉi tiun foton</string>
     <string name="enhance_photo_too_large">Ĉi tiu foto estas tro granda por ĉi tiu aparato. Reŝaltu la malgrandigon en Agordoj, se ĝi estas malŝaltita.</string>
     <string name="shrink_before_enhance">Malgrandigi fotojn super 1 megapikselo antaŭ plibonigo</string>
+    <string name="compare_photo">Kompari</string>
 </resources>

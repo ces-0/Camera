@@ -7,4 +7,5 @@
     <string name="enhance_photo_failed">Nav izadevs uzlobuot itū foto</string>
     <string name="enhance_photo_too_large">Itei foto ir par lelu itai īreičei. Īslādziet samazynuošonu īstatiejumūs, ka jei ir izslāgta.</string>
     <string name="shrink_before_enhance">Pyrma uzlobuošonys samazynuot foto, kas leluokys par 1 megapikseli</string>
+    <string name="compare_photo">Compare</string>
 </resources>

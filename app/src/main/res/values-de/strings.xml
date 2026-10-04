@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">Foto konnte nicht verbessert werden</string>
     <string name="enhance_photo_too_large">Dieses Foto ist für dieses Gerät zu groß. Verkleinern in den Einstellungen wieder einschalten, falls es aus ist.</string>
     <string name="shrink_before_enhance">Fotos über 1 Megapixel vor dem Verbessern verkleinern</string>
+    <string name="compare_photo">Vergleichen</string>
 </resources>

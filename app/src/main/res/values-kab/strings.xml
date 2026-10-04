@@ -51,4 +51,5 @@
     <string name="enhance_photo_failed">Ur izmir ara ad isnerni tugna-agi</string>
     <string name="enhance_photo_too_large">Tugna-agi meqqer aṭas i yibenk-agi. Sserked-d tikci meẓẓi deg yiɣewwaren ma yella yensa.</string>
     <string name="shrink_before_enhance">Sseẓẓay tugniwin nnig 1 megapixel uqbel ad tent-tesnerniḍ</string>
+    <string name="compare_photo">Semsel</string>
 </resources>

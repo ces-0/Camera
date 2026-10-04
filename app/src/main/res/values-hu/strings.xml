@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">Ezt a fotót nem sikerült javítani</string>
     <string name="enhance_photo_too_large">Ez a fotó túl nagy ehhez az eszközhöz. Kapcsolja vissza a kicsinyítést a Beállításokban, ha ki van kapcsolva.</string>
     <string name="shrink_before_enhance">1 megapixelnél nagyobb fotók kicsinyítése javítás előtt</string>
+    <string name="compare_photo">Összehasonlítás</string>
 </resources>

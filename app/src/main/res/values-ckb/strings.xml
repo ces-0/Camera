@@ -10,4 +10,5 @@
     <string name="enhance_photo_failed">نەتوانرا ئەم وێنەیە باشتر بکرێت</string>
     <string name="enhance_photo_too_large">ئەم وێنەیە بۆ ئەم ئامێرە زۆر گەورەیە. ئەگەر بچووککردنەوە کوژاوەتەوە، لە ڕێکخستنەکاندا دیسانی پێ بکە.</string>
     <string name="shrink_before_enhance">پێش باشترکردن وێنەی گەورەتر لە 1 مێگاپێکسڵ بچووک بکەرەوە</string>
+    <string name="compare_photo">بەراورد</string>
 </resources>

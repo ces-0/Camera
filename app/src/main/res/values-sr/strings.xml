@@ -53,4 +53,5 @@
     <string name="enhance_photo_failed">Није могуће побољшати ову фотографију</string>
     <string name="enhance_photo_too_large">Ова фотографија је превелика за овај уређај. Поново укључите смањивање у Подешавањима ако је искључено.</string>
     <string name="shrink_before_enhance">Смањи фотографије веће од 1 мегапиксела пре побољшања</string>
+    <string name="compare_photo">Упореди</string>
 </resources>

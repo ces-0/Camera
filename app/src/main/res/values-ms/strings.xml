@@ -7,4 +7,5 @@
     <string name="enhance_photo_failed">Tidak dapat meningkatkan foto ini</string>
     <string name="enhance_photo_too_large">Foto ini terlalu besar untuk peranti ini. Hidupkan semula pengecilan dalam Tetapan jika ia dimatikan.</string>
     <string name="shrink_before_enhance">Kecilkan foto melebihi 1 megapiksel sebelum ditingkatkan</string>
+    <string name="compare_photo">Bandingkan</string>
 </resources>

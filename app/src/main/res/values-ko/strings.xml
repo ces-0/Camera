@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">이 사진을 향상할 수 없습니다</string>
     <string name="enhance_photo_too_large">이 사진은 너무 커서 이 기기에서 향상할 수 없습니다. 축소가 꺼져 있으면 설정에서 다시 켜세요.</string>
     <string name="shrink_before_enhance">향상하기 전에 100만 화소를 넘는 사진을 축소</string>
+    <string name="compare_photo">비교</string>
 </resources>

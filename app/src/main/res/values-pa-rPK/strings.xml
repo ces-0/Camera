@@ -13,4 +13,5 @@
     <string name="enhance_photo_failed">یہ تصویر بہتر نہیں کی جا سکی</string>
     <string name="enhance_photo_too_large">یہ تصویر اس ڈیوائس کے لیے بہت بڑی ہے۔ اگر چھوٹا کرنا بند ہے تو ترتیبات میں اسے دوبارہ چالو کریں۔</string>
     <string name="shrink_before_enhance">بہتر کرنے سے پہلے 1 میگاپکسل سے بڑی تصاویر چھوٹی کریں</string>
+    <string name="compare_photo">موازنہ</string>
 </resources>

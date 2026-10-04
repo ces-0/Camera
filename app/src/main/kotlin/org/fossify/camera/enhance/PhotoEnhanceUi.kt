@@ -4,6 +4,9 @@ import android.content.Intent
 import android.graphics.Bitmap
 import android.net.Uri
 import android.util.Log
+import android.view.MotionEvent
+import android.view.View
+import android.view.ViewConfiguration
 import androidx.appcompat.app.AlertDialog
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
@@ -39,8 +42,10 @@ class PhotoEnhanceUi(
     private val canOfferEnhance: () -> Boolean,
     private val currentPhoto: () -> Uri?,
 ) {
-    private val runner = PhotoEnhanceRunner(activity)
+    private val runner = PhotoEnhanceRunner(activity, ::onEnhanceSaved)
     private var reviewUri: Uri? = null
+    private var enhancedPath: String? = null
+    private var latchedOriginal = false
 
     fun attach() {
         binding.enhanceLastPhoto.setOnClickListener {
@@ -49,6 +54,14 @@ class PhotoEnhanceUi(
         }
         binding.photoReview.setOnClickListener { hideReview() }
         binding.photoReviewEnhance.setOnClickListener { confirmAndEnhance() }
+        binding.photoReviewCompare.setOnClickListener {
+            if (enhancedPath == null) {
+                return@setOnClickListener
+            }
+            latchedOriginal = !latchedOriginal
+            binding.showOriginalLayer(latchedOriginal)
+        }
+        binding.photoReviewCompare.setOnTouchListener(::onCompareTouch)
     }
 
     fun onStillPhotoSaved(uri: Uri) {
@@ -75,6 +88,7 @@ class PhotoEnhanceUi(
     fun hideReview() {
         runner.cancel()
         reviewUri = null
+        clearCompare()
         if (!binding.photoReview.isGone()) {
             Glide.with(activity).clear(binding.photoReviewImage)
             binding.photoReview.beGone()
@@ -88,6 +102,7 @@ class PhotoEnhanceUi(
         }
         reviewUri = uri
         runner.cancelled = false
+        clearCompare()
         binding.photoReview.beVisible()
         binding.photoReview.bringToFront()
         binding.enhanceLastPhoto.beGone()
@@ -119,10 +134,76 @@ class PhotoEnhanceUi(
                 activity.setupDialogStuff(dialogBinding.root, this, R.string.enhance_photo)
             }
     }
+
+    private fun onEnhanceSaved(destPath: String) {
+        val original = reviewUri ?: return
+        enhancedPath = destPath
+        latchedOriginal = false
+        binding.showOriginalLayer(false)
+        binding.photoReviewCompare.beVisible()
+        val enhanced: Any = if (File(destPath).isFile) File(destPath) else destPath
+        Glide.with(activity)
+            .load(original)
+            .diskCacheStrategy(DiskCacheStrategy.NONE)
+            .skipMemoryCache(true)
+            .into(binding.photoReviewOriginal)
+        Glide.with(activity)
+            .load(enhanced)
+            .diskCacheStrategy(DiskCacheStrategy.NONE)
+            .skipMemoryCache(true)
+            .into(binding.photoReviewImage)
+    }
+
+    private fun onCompareTouch(view: View, event: MotionEvent): Boolean {
+        if (enhancedPath == null) {
+            return false
+        }
+        return when (event.actionMasked) {
+            MotionEvent.ACTION_DOWN -> {
+                view.isPressed = true
+                binding.showOriginalLayer(true)
+                true
+            }
+            MotionEvent.ACTION_UP -> {
+                view.isPressed = false
+                val elapsed = event.eventTime - event.downTime
+                val longPress = ViewConfiguration.getLongPressTimeout().toLong()
+                if (elapsed < longPress) {
+                    view.performClick()
+                } else {
+                    latchedOriginal = false
+                    binding.showOriginalLayer(false)
+                }
+                true
+            }
+            MotionEvent.ACTION_CANCEL -> {
+                view.isPressed = false
+                binding.showOriginalLayer(latchedOriginal)
+                true
+            }
+            else -> true
+        }
+    }
+
+    private fun clearCompare() {
+        enhancedPath = null
+        latchedOriginal = false
+        binding.showOriginalLayer(false)
+        binding.photoReviewCompare.beGone()
+        if (!activity.isDestroyed) {
+            Glide.with(activity).clear(binding.photoReviewOriginal)
+        }
+    }
+}
+
+private fun ActivityMainBinding.showOriginalLayer(showOriginal: Boolean) {
+    photoReviewCompare.isActivated = showOriginal
+    photoReviewOriginal.visibility = if (showOriginal) View.VISIBLE else View.INVISIBLE
 }
 
 class PhotoEnhanceRunner(
     private val activity: MainActivity,
+    private val onSaved: (String) -> Unit,
 ) {
     var cancelled = false
     private var enhanceDialog: AlertDialog? = null
@@ -232,6 +313,7 @@ class PhotoEnhanceRunner(
             activity.runOnUiThread {
                 if (!activity.isDestroyed) {
                     activity.toast(R.string.enhance_photo_saved)
+                    onSaved(destPath)
                     Intent(BROADCAST_REFRESH_MEDIA).apply {
                         putExtra(REFRESH_PATH, destPath)
                         `package` = "org.fossify.gallery"

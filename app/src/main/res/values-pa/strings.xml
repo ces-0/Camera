@@ -7,4 +7,5 @@
     <string name="enhance_photo_failed">ਇਹ ਫੋਟੋ ਸੁਧਾਰੀ ਨਹੀਂ ਜਾ ਸਕੀ</string>
     <string name="enhance_photo_too_large">ਇਹ ਫੋਟੋ ਇਸ ਡਿਵਾਈਸ ਲਈ ਬਹੁਤ ਵੱਡੀ ਹੈ। ਜੇ ਛੋਟਾ ਕਰਨਾ ਬੰਦ ਹੈ ਤਾਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਇਸਨੂੰ ਫਿਰ ਚਾਲੂ ਕਰੋ।</string>
     <string name="shrink_before_enhance">ਸੁਧਾਰਨ ਤੋਂ ਪਹਿਲਾਂ 1 ਮੈਗਾਪਿਕਸਲ ਤੋਂ ਵੱਡੀਆਂ ਫੋਟੋਆਂ ਛੋਟੀਆਂ ਕਰੋ</string>
+    <string name="compare_photo">ਤੁਲਨਾ</string>
 </resources>

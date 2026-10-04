@@ -9,4 +9,5 @@
     <string name="enhance_photo_failed">Neizdevās uzlabot šo fotoattēlu</string>
     <string name="enhance_photo_too_large">Šis fotoattēls ir pārāk liels šai ierīcei. Iestatījumos atkal ieslēdziet samazināšanu, ja tā ir izslēgta.</string>
     <string name="shrink_before_enhance">Pirms uzlabošanas samazināt fotoattēlus, kas lielāki par 1 megapikseļu</string>
+    <string name="compare_photo">Salīdzināt</string>
 </resources>

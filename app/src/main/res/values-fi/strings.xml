@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">Kuvaa ei voitu parantaa</string>
     <string name="enhance_photo_too_large">Tämä kuva on liian suuri tälle laitteelle. Ota pienennys uudelleen käyttöön asetuksissa, jos se on pois päältä.</string>
     <string name="shrink_before_enhance">Pienennä yli 1 megapikselin kuvat ennen parantamista</string>
+    <string name="compare_photo">Vertaile</string>
 </resources>

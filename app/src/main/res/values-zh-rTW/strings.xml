@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">無法增強這張圖片</string>
     <string name="enhance_photo_too_large">這張圖片太大，此裝置無法增強。若已關閉縮小，請在設定中重新開啟。</string>
     <string name="shrink_before_enhance">增強前先縮小超過 100 萬像素的圖片</string>
+    <string name="compare_photo">比較原圖</string>
 </resources>

@@ -193,6 +193,20 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <ImageView
+            android:id="@+id/photo_review_original"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:clickable="false"
+            android:contentDescription="@string/compare_photo"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@id/photo_review_image"
+            app:layout_constraintEnd_toEndOf="@id/photo_review_image"
+            app:layout_constraintStart_toStartOf="@id/photo_review_image"
+            app:layout_constraintTop_toTopOf="@id/photo_review_image" />
+
         <TextView
             android:id="@+id/photo_review_hint"
             android:layout_width="0dp"
@@ -201,19 +215,35 @@
             android:padding="@dimen/medium_margin"
             android:text="@string/click_to_resume_preview"
             android:textColor="@android:color/white"
-            app:layout_constraintBottom_toTopOf="@id/photo_review_enhance"
+            app:layout_constraintBottom_toTopOf="@id/photo_review_actions"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/photo_review_enhance"
+        <LinearLayout
+            android:id="@+id/photo_review_actions"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/medium_margin"
-            android:text="@string/enhance_photo"
+            android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/photo_review_compare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/smaller_margin"
+                android:text="@string/compare_photo"
+                android:visibility="gone" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/photo_review_enhance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enhance_photo" />
+
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

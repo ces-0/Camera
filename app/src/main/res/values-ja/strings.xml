@@ -53,4 +53,5 @@
     <string name="enhance_photo_failed">この写真を強化できませんでした</string>
     <string name="enhance_photo_too_large">この写真は大きすぎて、この端末では強化できません。縮小をオフにしている場合は設定でオンに戻してください。</string>
     <string name="shrink_before_enhance">強化する前に100万画素を超える写真を縮小する</string>
+    <string name="compare_photo">比較</string>
 </resources>

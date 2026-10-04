@@ -26,4 +26,5 @@
     <string name="enhance_photo_failed">ای عسگ بئتر نوابۊ</string>
     <string name="enhance_photo_too_large">ای عسگ سی ای دستگاه خئل گپ ه. ار کوچیک کردن کوشت ه، د تنظیمات دووارته روشن کن.</string>
     <string name="shrink_before_enhance">قبل بئتر کردن، عسگیا گپ‌تر ز 1 مگاپیکسل کوچیک کن</string>
+    <string name="compare_photo">مقایسه</string>
 </resources>

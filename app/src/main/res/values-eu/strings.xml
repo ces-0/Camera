@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">Ezin izan da argazki hau hobetu</string>
     <string name="enhance_photo_too_large">Argazki hau handiegia da gailu honetarako. Txikitzea itzalita badago, piztu berriro Ezarpenetan.</string>
     <string name="shrink_before_enhance">Txikitu megapixel 1 baino handiagoak diren argazkiak hobetu aurretik</string>
+    <string name="compare_photo">Alderatu</string>
 </resources>

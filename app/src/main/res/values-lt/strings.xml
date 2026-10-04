@@ -52,4 +52,5 @@
     <string name="enhance_photo_failed">Nepavyko pagerinti šios nuotraukos</string>
     <string name="enhance_photo_too_large">Ši nuotrauka per didelė šiam įrenginiui. Nustatymuose vėl įjunkite mažinimą, jei jis išjungtas.</string>
     <string name="shrink_before_enhance">Prieš gerinant sumažinti nuotraukas, didesnes nei 1 megapikselis</string>
+    <string name="compare_photo">Palyginti</string>
 </resources>

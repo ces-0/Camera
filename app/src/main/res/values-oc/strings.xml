@@ -15,4 +15,5 @@
     <string name="enhance_photo_failed">Impossible de melhorar aquesta fòto</string>
     <string name="enhance_photo_too_large">Aquesta fòto es tròp granda per èsser melhorada sus aqueste aparelh. Se la reduccion es desactivada, tornatz l\'activar dins los paramètres.</string>
     <string name="shrink_before_enhance">Reduire las fòtos de mai d\'1 megapixel abans de melhorar</string>
+    <string name="compare_photo">Comparar</string>
 </resources>

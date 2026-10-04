@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">این عکس بهبود داده نشد</string>
     <string name="enhance_photo_too_large">این عکس برای این دستگاه خیلی بزرگ است. اگر کوچک‌سازی خاموش است، آن را در تنظیمات دوباره روشن کنید.</string>
     <string name="shrink_before_enhance">کوچک کردن عکس‌های بزرگ‌تر از ۱ مگاپیکسل پیش از بهبود</string>
+    <string name="compare_photo">مقایسه</string>
 </resources>

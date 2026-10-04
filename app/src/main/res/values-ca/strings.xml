@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">No s’ha pogut millorar aquesta foto</string>
     <string name="enhance_photo_too_large">Aquesta foto és massa gran per a aquest dispositiu. Torna a activar la reducció a Configuració si està desactivada.</string>
     <string name="shrink_before_enhance">Redueix les fotos de més d’1 megapíxel abans de millorar-les</string>
+    <string name="compare_photo">Compara</string>
 </resources>

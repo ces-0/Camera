@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">Níorbh fhéidir an grianghraf seo a fheabhsú</string>
     <string name="enhance_photo_too_large">Tá an grianghraf seo rómhór don ghléas seo. Cas an laghdú air arís i Socruithe má tá sé múchta.</string>
     <string name="shrink_before_enhance">Laghdaigh grianghraif os cionn 1 meigeaphicteil roimh fheabhsú</string>
+    <string name="compare_photo">Déan comparáid</string>
 </resources>

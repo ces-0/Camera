@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">Impossible d’améliorer cette photo</string>
     <string name="enhance_photo_too_large">Cette photo est trop grande pour cet appareil. Réactivez la réduction dans les paramètres si elle est désactivée.</string>
     <string name="shrink_before_enhance">Réduire les photos de plus d’1 mégapixel avant l’amélioration</string>
+    <string name="compare_photo">Comparer</string>
 </resources>

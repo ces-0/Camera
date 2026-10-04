@@ -194,7 +194,8 @@ private fun compressionFormat(path: String): Bitmap.CompressFormat {
     }
 }
 
-private const val JPEG_QUALITY = 95
+// Enhanced JPEGs are stored at maximum quality. This does not follow the camera slider.
+private const val JPEG_QUALITY = 100
 private const val PNG_QUALITY = 100
 private const val PNG_EXTENSION = "png"
 private const val IS_PENDING = 1

@@ -48,4 +48,5 @@
     <string name="enhance_photo_failed">ഈ ഫോട്ടോ മെച്ചപ്പെടുത്താനായില്ല</string>
     <string name="enhance_photo_too_large">ഈ ഫോട്ടോ ഈ ഉപകരണത്തിന് വളരെ വലുതാണ്. ചുരുക്കൽ ഓഫാണെങ്കിൽ ക്രമീകരണത്തിൽ വീണ്ടും ഓൺ ചെയ്യുക.</string>
     <string name="shrink_before_enhance">മെച്ചപ്പെടുത്തുന്നതിന് മുമ്പ് 1 മെഗാപിക്സലിൽ കൂടുതലുള്ള ഫോട്ടോകൾ ചുരുക്കുക</string>
+    <string name="compare_photo">താരതമ്യം</string>
 </resources>

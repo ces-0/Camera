@@ -52,4 +52,5 @@
     <string name="enhance_photo_failed">Không thể nâng cấp ảnh này</string>
     <string name="enhance_photo_too_large">Ảnh này quá lớn với thiết bị này. Hãy bật lại thu nhỏ trong Cài đặt nếu đang tắt.</string>
     <string name="shrink_before_enhance">Thu nhỏ ảnh trên 1 megapixel trước khi nâng cấp</string>
+    <string name="compare_photo">So sánh</string>
 </resources>

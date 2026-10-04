@@ -7,4 +7,5 @@
     <string name="enhance_photo_failed">இந்த புகைப்படத்தை மேம்படுத்த முடியவில்லை</string>
     <string name="enhance_photo_too_large">இந்த புகைப்படம் இந்த சாதனத்திற்கு மிகப் பெரியது. சுருக்கம் அணைந்திருந்தால் அமைப்புகளில் மீண்டும் இயக்கவும்.</string>
     <string name="shrink_before_enhance">மேம்படுத்துவதற்கு முன் 1 மெகாபிக்சலுக்கு மேற்பட்ட புகைப்படங்களைச் சுருக்கு</string>
+    <string name="compare_photo">ஒப்பிடு</string>
 </resources>

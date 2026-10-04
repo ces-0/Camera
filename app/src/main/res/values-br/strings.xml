@@ -14,4 +14,5 @@
     <string name="enhance_photo_failed">N’eus ket bet gallet gwellaat ar skeudenn-mañ</string>
     <string name="enhance_photo_too_large">Re vras eo ar skeudenn-mañ evit an trevnad-mañ. Adgweredekait ar bihanaat en Arventennoù ma’z eo lazhet.</string>
     <string name="shrink_before_enhance">Bihanaat ar skeudennoù dreist 1 megapiksel a-raok o gwellaat</string>
+    <string name="compare_photo">Keñveriañ</string>
 </resources>

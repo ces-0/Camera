@@ -54,4 +54,5 @@
     <string name="enhance_photo_failed">לא ניתן לשפר את התמונה הזו</string>
     <string name="enhance_photo_too_large">התמונה גדולה מדי למכשיר הזה. הפעילו שוב את ההקטנה בהגדרות אם היא כבויה.</string>
     <string name="shrink_before_enhance">הקטן תמונות מעל 1 מגה־פיקסל לפני השיפור</string>
+    <string name="compare_photo">השוואה</string>
 </resources>

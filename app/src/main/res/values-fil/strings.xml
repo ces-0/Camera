@@ -7,4 +7,5 @@
     <string name="enhance_photo_failed">Hindi mapahusay ang larawang ito</string>
     <string name="enhance_photo_too_large">Masyadong malaki ang larawang ito para sa device na ito. I-on muli ang pagpapaliit sa Settings kung naka-off ito.</string>
     <string name="shrink_before_enhance">Paliitin ang mga larawang higit sa 1 megapixel bago pahusayin</string>
+    <string name="compare_photo">Ikumpara</string>
 </resources>
