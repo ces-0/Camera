@@ -46,4 +46,13 @@
     <string name="shutter">Deklanşör</string>
     <string name="video">Video</string>
     <string name="max_brightness">Önizlemede en yüksek ekran parlaklığı</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Çözünürlüğü iyileştir (4×)</string>
+    <string name="enhancing_photo">Fotoğraf iyileştiriliyor…</string>
+    <string name="enhance_photo_saved">İyileştirilen fotoğraf kaydedildi</string>
+    <string name="enhance_photo_failed">Bu fotoğraf iyileştirilemedi</string>
+    <string name="enhance_photo_too_large">Bu fotoğraf bu cihaz için çok büyük. Kapalıysa Ayarlar’dan küçültmeyi yeniden açın.</string>
+    <string name="shrink_before_enhance">İyileştirmeden önce 1 megapikselden büyük fotoğrafları küçült</string>
+    <string name="compare_photo">Karşılaştır</string>
 </resources>

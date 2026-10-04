@@ -46,4 +46,13 @@
     <string name="photo_compression_quality">คุณภาพการบีบอัดภาพถ่าย</string>
     <string name="shutter">ชัตเตอร์</string>
     <string name="max_brightness">ความสว่างหน้าจอสูงสุดในโหมดดูตัวอย่าง</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">เพิ่มความละเอียด (4×)</string>
+    <string name="enhancing_photo">กำลังเพิ่มคุณภาพรูป…</string>
+    <string name="enhance_photo_saved">บันทึกรูปที่ปรับแล้วแล้ว</string>
+    <string name="enhance_photo_failed">ไม่สามารถปรับรูปนี้ได้</string>
+    <string name="enhance_photo_too_large">รูปนี้ใหญ่เกินไปสำหรับอุปกรณ์นี้ หากปิดการย่อไว้ ให้เปิดอีกครั้งในการตั้งค่า</string>
+    <string name="shrink_before_enhance">ย่อรูปที่ใหญ่กว่า 1 เมกะพิกเซลก่อนเพิ่มความละเอียด</string>
+    <string name="compare_photo">เปรียบเทียบ</string>
 </resources>

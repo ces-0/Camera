@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">ರೆಸಲ್ಯೂಶನ್ ಸುಧಾರಿಸಿ (4×)</string>
+    <string name="enhancing_photo">ಫೋಟೋ ಸುಧಾರಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="enhance_photo_saved">ಸುಧಾರಿಸಿದ ಫೋಟೋ ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="enhance_photo_failed">ಈ ಫೋಟೋವನ್ನು ಸುಧಾರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+    <string name="enhance_photo_too_large">ಈ ಫೋಟೋ ಈ ಸಾಧನಕ್ಕೆ ತುಂಬಾ ದೊಡ್ಡದು. ಕುಗ್ಗಿಸುವಿಕೆ ಆಫ್ ಆಗಿದ್ದರೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಮತ್ತೆ ಆನ್ ಮಾಡಿ.</string>
+    <string name="shrink_before_enhance">ಸುಧಾರಿಸುವ ಮೊದಲು 1 ಮೆಗಾಪಿಕ್ಸೆಲ್‌ಗಿಂತ ದೊಡ್ಡ ಫೋಟೋಗಳನ್ನು ಕುಗ್ಗಿಸಿ</string>
+    <string name="compare_photo">ಹೋಲಿಸಿ</string>
+</resources>

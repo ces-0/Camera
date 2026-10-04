@@ -46,4 +46,13 @@
     <string name="shutter">Slutare</string>
     <string name="video">Video</string>
     <string name="max_brightness">Maximal skärmljusstyrka i förhandsgranskning</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Förbättra upplösning (4×)</string>
+    <string name="enhancing_photo">Förbättrar fotot…</string>
+    <string name="enhance_photo_saved">Förbättrat foto har sparats</string>
+    <string name="enhance_photo_failed">Det gick inte att förbättra det här fotot</string>
+    <string name="enhance_photo_too_large">Det här fotot är för stort för den här enheten. Slå på förminskning igen i Inställningar om den är av.</string>
+    <string name="shrink_before_enhance">Förminska foton över 1 megapixel innan de förbättras</string>
+    <string name="compare_photo">Jämför</string>
 </resources>

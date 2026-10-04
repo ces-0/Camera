@@ -2,4 +2,13 @@
 <resources>
     <string name="app_launcher_name">کامێرە</string>
     <string name="maximize_quality">بەرزکردنەوەی جۆرایەتی</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">باشترکردنی ڕوونی (4×)</string>
+    <string name="enhancing_photo">وێنەکە باشتر دەکرێت…</string>
+    <string name="enhance_photo_saved">وێنەی باشترکراو پاشەکەوت کرا</string>
+    <string name="enhance_photo_failed">نەتوانرا ئەم وێنەیە باشتر بکرێت</string>
+    <string name="enhance_photo_too_large">ئەم وێنەیە بۆ ئەم ئامێرە زۆر گەورەیە. ئەگەر بچووککردنەوە کوژاوەتەوە، لە ڕێکخستنەکاندا دیسانی پێ بکە.</string>
+    <string name="shrink_before_enhance">پێش باشترکردن وێنەی گەورەتر لە 1 مێگاپێکسڵ بچووک بکەرەوە</string>
+    <string name="compare_photo">بەراورد</string>
 </resources>

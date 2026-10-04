@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">ပုံရိပ်ပြတ်သားမှု မြှင့်တင်ရန် (4×)</string>
+    <string name="enhancing_photo">ဓာတ်ပုံကို မြှင့်တင်နေသည်…</string>
+    <string name="enhance_photo_saved">မြှင့်တင်ထားသော ဓာတ်ပုံကို သိမ်းပြီးပါပြီ</string>
+    <string name="enhance_photo_failed">ဤဓာတ်ပုံကို မြှင့်တင်၍ မရပါ</string>
+    <string name="enhance_photo_too_large">ဤဓာတ်ပုံသည် ဤစက်အတွက် ကြီးလွန်းသည်။ ချုံ့ခြင်း ပိတ်ထားလျှင် ဆက်တင်တွင် ပြန်ဖွင့်ပါ။</string>
+    <string name="shrink_before_enhance">မြှင့်တင်မီ 1 မီဂါပစ်ဇယ်ကျော် ဓာတ်ပုံများကို ချုံ့ပါ</string>
+    <string name="compare_photo">နှိုင်းယှဉ်ရန်</string>
+</resources>

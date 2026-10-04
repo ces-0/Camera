@@ -46,4 +46,13 @@
     <string name="shutter">Katik</string>
     <string name="video">Video</string>
     <string name="max_brightness">Ekraani suurim eredus eelvaates</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Paranda eraldusvõimet (4×)</string>
+    <string name="enhancing_photo">Foto parandamine…</string>
+    <string name="enhance_photo_saved">Parandatud foto on salvestatud</string>
+    <string name="enhance_photo_failed">Seda fotot ei saanud parandada</string>
+    <string name="enhance_photo_too_large">See foto on selle seadme jaoks liiga suur. Lülita kahandamine seadetes uuesti sisse, kui see on väljas.</string>
+    <string name="shrink_before_enhance">Kahanda enne parandamist fotod, mis on suuremad kui 1 megapiksel</string>
+    <string name="compare_photo">Võrdle</string>
 </resources>

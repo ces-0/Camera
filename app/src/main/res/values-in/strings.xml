@@ -45,4 +45,13 @@
     <string name="shutter">Rana</string>
     <string name="save_photo_video_location">Simpan lokasi foto dan video</string>
     <string name="video">Video</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Tingkatkan resolusi (4×)</string>
+    <string name="enhancing_photo">Meningkatkan foto…</string>
+    <string name="enhance_photo_saved">Foto yang ditingkatkan disimpan</string>
+    <string name="enhance_photo_failed">Tidak dapat meningkatkan foto ini</string>
+    <string name="enhance_photo_too_large">Foto ini terlalu besar untuk perangkat ini. Aktifkan lagi pengecilan di Setelan jika dimatikan.</string>
+    <string name="shrink_before_enhance">Kecilkan foto di atas 1 megapiksel sebelum ditingkatkan</string>
+    <string name="compare_photo">Bandingkan</string>
 </resources>

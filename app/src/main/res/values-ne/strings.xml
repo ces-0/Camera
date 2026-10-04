@@ -28,4 +28,13 @@
     <string name="save_photo_metadata">फोटो बचत exif मेटाडेटा</string>
     <string name="photo_compression_quality">फोटो खदाईको गुणस्तर</string>
     <string name="shutter">खिच्ने</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">रिजोल्युसन सुधार्नुहोस् (4×)</string>
+    <string name="enhancing_photo">फोटो सुधारिँदै…</string>
+    <string name="enhance_photo_saved">सुधारिएको फोटो सुरक्षित भयो</string>
+    <string name="enhance_photo_failed">यो फोटो सुधार्न सकिएन</string>
+    <string name="enhance_photo_too_large">यो फोटो यो यन्त्रका लागि धेरै ठूलो छ। सानो बनाउने बन्द छ भने सेटिङमा फेरि खोल्नुहोस्।</string>
+    <string name="shrink_before_enhance">सुधार्नु अघि 1 मेगापिक्सेलभन्दा ठूला फोटो साना बनाउनुहोस्</string>
+    <string name="compare_photo">तुलना</string>
 </resources>

@@ -6,4 +6,13 @@
     <string name="minimize_latency">Bihanaat ar gortozvezh</string>
     <string name="camera_unavailable">Dihegerz eo ar c\'hamera</string>
     <string name="camera_open_error">Degouezhet ez eus bet ur fazi en ur haeziñ ar c\'hamera</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Gwellaat ar resolusion (4×)</string>
+    <string name="enhancing_photo">O wellaat ar skeudenn…</string>
+    <string name="enhance_photo_saved">Skeudenn wellaet enrollet</string>
+    <string name="enhance_photo_failed">N’eus ket bet gallet gwellaat ar skeudenn-mañ</string>
+    <string name="enhance_photo_too_large">Re vras eo ar skeudenn-mañ evit an trevnad-mañ. Adgweredekait ar bihanaat en Arventennoù ma’z eo lazhet.</string>
+    <string name="shrink_before_enhance">Bihanaat ar skeudennoù dreist 1 megapiksel a-raok o gwellaat</string>
+    <string name="compare_photo">Keñveriañ</string>
 </resources>

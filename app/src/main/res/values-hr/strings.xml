@@ -46,4 +46,13 @@
     <string name="save_photo_video_location">Spremi lokaciju fotografije i videa</string>
     <string name="video">Video</string>
     <string name="max_brightness">Maksimalna svjetlost ekrana u pregledu</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Poboljšaj razlučivost (4×)</string>
+    <string name="enhancing_photo">Poboljšavanje fotografije…</string>
+    <string name="enhance_photo_saved">Poboljšana fotografija spremljena</string>
+    <string name="enhance_photo_failed">Nije moguće poboljšati ovu fotografiju</string>
+    <string name="enhance_photo_too_large">Ova je fotografija prevelika za ovaj uređaj. Ponovo uključite smanjivanje u Postavkama ako je isključeno.</string>
+    <string name="shrink_before_enhance">Smanji fotografije veće od 1 megapiksela prije poboljšanja</string>
+    <string name="compare_photo">Usporedi</string>
 </resources>

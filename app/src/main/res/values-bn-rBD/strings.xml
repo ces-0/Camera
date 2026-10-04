@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">রেজোলিউশন উন্নত করুন (4×)</string>
+    <string name="enhancing_photo">ছবি উন্নত করা হচ্ছে…</string>
+    <string name="enhance_photo_saved">উন্নত ছবি সংরক্ষণ করা হয়েছে</string>
+    <string name="enhance_photo_failed">এই ছবিটি উন্নত করা যায়নি</string>
+    <string name="enhance_photo_too_large">এই ছবিটি এই ডিভাইসের জন্য অনেক বড়। ছোট করা বন্ধ থাকলে সেটিংসে আবার চালু করুন।</string>
+    <string name="shrink_before_enhance">উন্নত করার আগে 1 মেগাপিক্সেলের বেশি ছবি ছোট করুন</string>
+    <string name="compare_photo">তুলনা</string>
+</resources>

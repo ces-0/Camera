@@ -29,4 +29,13 @@
     <string name="save_photo_metadata">Cadw metaddata lluniau</string>
     <string name="photo_compression_quality">Ansawdd cywasgiad lluniau</string>
     <string name="shutter">Caead</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Gwella’r cydraniad (4×)</string>
+    <string name="enhancing_photo">Yn gwella’r llun…</string>
+    <string name="enhance_photo_saved">Cadwyd y llun wedi’i wella</string>
+    <string name="enhance_photo_failed">Methwyd gwella’r llun hwn</string>
+    <string name="enhance_photo_too_large">Mae’r llun hwn yn rhy fawr i’r ddyfais hon. Trowch y crebachu ymlaen eto yn y Gosodiadau os yw wedi’i ddiffodd.</string>
+    <string name="shrink_before_enhance">Crebachu lluniau dros 1 megapicsel cyn eu gwella</string>
+    <string name="compare_photo">Cymharu</string>
 </resources>

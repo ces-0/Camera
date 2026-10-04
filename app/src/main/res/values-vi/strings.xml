@@ -44,4 +44,13 @@
     <string name="save_photo_video_location">Lưu vị trí ảnh và video</string>
     <string name="photo_compression_quality">Chất lượng nén ảnh</string>
     <string name="shutter">Chụp</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Nâng độ phân giải (4×)</string>
+    <string name="enhancing_photo">Đang nâng cấp ảnh…</string>
+    <string name="enhance_photo_saved">Đã lưu ảnh đã nâng cấp</string>
+    <string name="enhance_photo_failed">Không thể nâng cấp ảnh này</string>
+    <string name="enhance_photo_too_large">Ảnh này quá lớn với thiết bị này. Hãy bật lại thu nhỏ trong Cài đặt nếu đang tắt.</string>
+    <string name="shrink_before_enhance">Thu nhỏ ảnh trên 1 megapixel trước khi nâng cấp</string>
+    <string name="compare_photo">So sánh</string>
 </resources>

@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Bæta upplausn (4×)</string>
+    <string name="enhancing_photo">Bætir ljósmynd…</string>
+    <string name="enhance_photo_saved">Endurbætt ljósmynd vistuð</string>
+    <string name="enhance_photo_failed">Ekki tókst að bæta þessa ljósmynd</string>
+    <string name="enhance_photo_too_large">Þessi ljósmynd er of stór fyrir þetta tæki. Kveiktu aftur á minnkun í stillingum ef hún er óvirk.</string>
+    <string name="shrink_before_enhance">Minnka ljósmyndir yfir 1 megapixla áður en þær eru bættar</string>
+    <string name="compare_photo">Bera saman</string>
+</resources>

@@ -46,4 +46,13 @@
     <string name="shutter">Verschluss</string>
     <string name="video">Video</string>
     <string name="max_brightness">Maximale Bildschirmhelligkeit in der Vorschau</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Auflösung verbessern (4×)</string>
+    <string name="enhancing_photo">Foto wird verbessert…</string>
+    <string name="enhance_photo_saved">Verbessertes Foto gespeichert</string>
+    <string name="enhance_photo_failed">Foto konnte nicht verbessert werden</string>
+    <string name="enhance_photo_too_large">Dieses Foto ist für dieses Gerät zu groß. Verkleinern in den Einstellungen wieder einschalten, falls es aus ist.</string>
+    <string name="shrink_before_enhance">Fotos über 1 Megapixel vor dem Verbessern verkleinern</string>
+    <string name="compare_photo">Vergleichen</string>
 </resources>

@@ -57,4 +57,14 @@
         Haven't found some strings? There's more at
         https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo_short" translatable="false">4×</string>
+    <string name="enhance_photo">Enhance (4×)</string>
+    <string name="enhancing_photo">Enhancing photo…</string>
+    <string name="enhance_photo_saved">Enhanced photo saved</string>
+    <string name="enhance_photo_failed">Could not enhance this photo</string>
+    <string name="enhance_photo_too_large">This photo is too large to enhance on this device. Turn shrinking back on in Settings if it is off.</string>
+    <string name="shrink_before_enhance">Shrink photos over 1 megapixel before enhancing</string>
+    <string name="compare_photo">Compare</string>
 </resources>

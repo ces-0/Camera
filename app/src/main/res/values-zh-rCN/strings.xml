@@ -46,4 +46,13 @@
     <string name="photo_compression_quality">照片压缩品质</string>
     <string name="shutter">快门</string>
     <string name="max_brightness">预览时的最大屏幕亮度</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">增强分辨率（4 倍）</string>
+    <string name="enhancing_photo">正在增强图片…</string>
+    <string name="enhance_photo_saved">已保存增强后的图片</string>
+    <string name="enhance_photo_failed">无法增强这张图片</string>
+    <string name="enhance_photo_too_large">这张图片太大，此设备无法增强。如果已关闭缩小，请在设置中重新开启。</string>
+    <string name="shrink_before_enhance">增强前先缩小超过 100 万像素的图片</string>
+    <string name="compare_photo">对比原图</string>
 </resources>

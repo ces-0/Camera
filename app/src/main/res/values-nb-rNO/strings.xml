@@ -41,4 +41,13 @@
     <string name="shutter">Lukker</string>
     <string name="maximize_quality">Maksimer kvalitet</string>
     <string name="minimize_latency">Minimer forsinkelse</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Forbedre oppløsning (4×)</string>
+    <string name="enhancing_photo">Forbedrer bildet…</string>
+    <string name="enhance_photo_saved">Forbedret bilde er lagret</string>
+    <string name="enhance_photo_failed">Kunne ikke forbedre dette bildet</string>
+    <string name="enhance_photo_too_large">Dette bildet er for stort for denne enheten. Slå på forminsking igjen i Innstillinger hvis den er av.</string>
+    <string name="shrink_before_enhance">Forminsk bilder over 1 megapiksel før forbedring</string>
+    <string name="compare_photo">Sammenlign</string>
 </resources>

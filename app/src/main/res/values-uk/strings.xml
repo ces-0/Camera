@@ -46,4 +46,13 @@
     <string name="photo_compression_quality">Якість фото після стиснення</string>
     <string name="shutter">Затвор</string>
     <string name="max_brightness">Макс. яскравість екрана під час передперегляду</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Покращити роздільність (4×)</string>
+    <string name="enhancing_photo">Покращення фото…</string>
+    <string name="enhance_photo_saved">Покращене фото збережено</string>
+    <string name="enhance_photo_failed">Не вдалося покращити це фото</string>
+    <string name="enhance_photo_too_large">Це фото завелике для цього пристрою. Знову ввімкніть зменшення в Налаштуваннях, якщо його вимкнено.</string>
+    <string name="shrink_before_enhance">Зменшувати фото понад 1 мегапіксель перед покращенням</string>
+    <string name="compare_photo">Порівняти</string>
 </resources>

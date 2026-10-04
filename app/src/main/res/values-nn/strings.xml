@@ -46,4 +46,13 @@
     <string name="save_photo_video_location">Lagra posisjonen til bilete og videoar</string>
     <string name="max_brightness">Full ljosstyrke ved førehandssyning</string>
     <string name="video">Video</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Forbetre oppløysing (4×)</string>
+    <string name="enhancing_photo">Forbetrar biletet…</string>
+    <string name="enhance_photo_saved">Forbetra bilete er lagra</string>
+    <string name="enhance_photo_failed">Kunne ikkje forbetre dette biletet</string>
+    <string name="enhance_photo_too_large">Dette biletet er for stort for denne eininga. Slå på forminsking igjen i Innstillingar om ho er av.</string>
+    <string name="shrink_before_enhance">Forminsk bilete over 1 megapiksel før forbetring</string>
+    <string name="compare_photo">Samanlikn</string>
 </resources>

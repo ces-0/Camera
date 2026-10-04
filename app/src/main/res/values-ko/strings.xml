@@ -46,4 +46,13 @@
     <string name="save_photo_video_location">사진과 비디오 위치 저장</string>
     <string name="shutter">셔터</string>
     <string name="max_brightness">미리보기 시 화면 밝기 최대화</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">해상도 향상(4배)</string>
+    <string name="enhancing_photo">사진을 향상하는 중…</string>
+    <string name="enhance_photo_saved">향상된 사진을 저장했습니다</string>
+    <string name="enhance_photo_failed">이 사진을 향상할 수 없습니다</string>
+    <string name="enhance_photo_too_large">이 사진은 너무 커서 이 기기에서 향상할 수 없습니다. 축소가 꺼져 있으면 설정에서 다시 켜세요.</string>
+    <string name="shrink_before_enhance">향상하기 전에 100만 화소를 넘는 사진을 축소</string>
+    <string name="compare_photo">비교</string>
 </resources>

@@ -46,4 +46,13 @@
     <string name="faq_1_title">Que qualidade de compressão de imagem devo definir?</string>
     <string name="save_photo_video_location">Guardar localização dos vídeos e das fotos</string>
     <string name="max_brightness">Luminosidade máxima do ecrã na pré-visualização</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Melhorar resolução (4×)</string>
+    <string name="enhancing_photo">A melhorar a foto…</string>
+    <string name="enhance_photo_saved">Foto melhorada guardada</string>
+    <string name="enhance_photo_failed">Não foi possível melhorar esta foto</string>
+    <string name="enhance_photo_too_large">Esta foto é demasiado grande para este dispositivo. Volte a ativar a redução nas Definições, se estiver desligada.</string>
+    <string name="shrink_before_enhance">Reduzir fotos com mais de 1 megapixel antes de melhorar</string>
+    <string name="compare_photo">Comparar</string>
 </resources>

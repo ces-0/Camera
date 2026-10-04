@@ -247,6 +247,36 @@
                 </RelativeLayout>
 
                 <RelativeLayout
+                    android:id="@+id/settings_show_preview_holder"
+                    style="@style/SettingsHolderCheckboxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <org.fossify.commons.views.MyMaterialSwitch
+                        android:id="@+id/settings_show_preview"
+                        style="@style/SettingsSwitchStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/show_preview" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/settings_shrink_before_enhance_holder"
+                    style="@style/SettingsHolderCheckboxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <org.fossify.commons.views.MyMaterialSwitch
+                        android:id="@+id/settings_shrink_before_enhance"
+                        style="@style/SettingsSwitchStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shrink_before_enhance" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
                     android:id="@+id/settings_save_photos_holder"
                     style="@style/SettingsHolderTextViewStyle"
                     android:layout_width="match_parent"

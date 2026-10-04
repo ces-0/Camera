@@ -42,6 +42,8 @@ class SettingsActivity : SimpleActivity() {
         setupVolumeButtonsAsShutter()
         setupMaxBrightness()
         setupFlipPhotos()
+        setupShowPreview()
+        setupShrinkBeforeEnhance()
         setupSavePhotoMetadata()
         setupSavePhotoVideoLocation()
         setupSavePhotosFolder()
@@ -174,6 +176,22 @@ class SettingsActivity : SimpleActivity() {
         settingsFlipPhotosHolder.setOnClickListener {
             settingsFlipPhotos.toggle()
             config.flipPhotos = settingsFlipPhotos.isChecked
+        }
+    }
+
+    private fun setupShowPreview() = binding.apply {
+        settingsShowPreview.isChecked = config.showPreview
+        settingsShowPreviewHolder.setOnClickListener {
+            settingsShowPreview.toggle()
+            config.showPreview = settingsShowPreview.isChecked
+        }
+    }
+
+    private fun setupShrinkBeforeEnhance() = binding.apply {
+        settingsShrinkBeforeEnhance.isChecked = config.shrinkBeforeEnhance
+        settingsShrinkBeforeEnhanceHolder.setOnClickListener {
+            settingsShrinkBeforeEnhance.toggle()
+            config.shrinkBeforeEnhance = settingsShrinkBeforeEnhance.isChecked
         }
     }
 

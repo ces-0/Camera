@@ -46,4 +46,13 @@
     <string name="app_launcher_name">Camera</string>
     <string name="video">Video</string>
     <string name="max_brightness">Maximale helderheid in voorbeeldweergave</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Resolutie verbeteren (4×)</string>
+    <string name="enhancing_photo">Foto verbeteren…</string>
+    <string name="enhance_photo_saved">Verbeterde foto opgeslagen</string>
+    <string name="enhance_photo_failed">Kan deze foto niet verbeteren</string>
+    <string name="enhance_photo_too_large">Deze foto is te groot voor dit apparaat. Zet verkleinen weer aan in Instellingen als het uit staat.</string>
+    <string name="shrink_before_enhance">Foto’s groter dan 1 megapixel verkleinen vóór het verbeteren</string>
+    <string name="compare_photo">Vergelijken</string>
 </resources>

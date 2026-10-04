@@ -46,4 +46,13 @@
     <string name="camera_configure_error">אירעה שגיאה במהלך הגדרת המצלמה</string>
     <string name="save_photo_video_location">שמור את מיקום התמונות והסרטונים</string>
     <string name="max_brightness">בהירות מקסימלית בתצוגה מקדימה</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">שיפור רזולוציה (4×)</string>
+    <string name="enhancing_photo">משפר את התמונה…</string>
+    <string name="enhance_photo_saved">התמונה המשופרת נשמרה</string>
+    <string name="enhance_photo_failed">לא ניתן לשפר את התמונה הזו</string>
+    <string name="enhance_photo_too_large">התמונה גדולה מדי למכשיר הזה. הפעילו שוב את ההקטנה בהגדרות אם היא כבויה.</string>
+    <string name="shrink_before_enhance">הקטן תמונות מעל 1 מגה־פיקסל לפני השיפור</string>
+    <string name="compare_photo">השוואה</string>
 </resources>

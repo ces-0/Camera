@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Poboljšaj rezoluciju (4×)</string>
+    <string name="enhancing_photo">Poboljšavanje fotografije…</string>
+    <string name="enhance_photo_saved">Poboljšana fotografija je sačuvana</string>
+    <string name="enhance_photo_failed">Nije moguće poboljšati ovu fotografiju</string>
+    <string name="enhance_photo_too_large">Ova fotografija je prevelika za ovaj uređaj. Ponovo uključite smanjivanje u Postavkama ako je isključeno.</string>
+    <string name="shrink_before_enhance">Smanji fotografije veće od 1 megapiksela prije poboljšanja</string>
+    <string name="compare_photo">Uporedi</string>
+</resources>

@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Tingkatkan peleraian (4×)</string>
+    <string name="enhancing_photo">Meningkatkan foto…</string>
+    <string name="enhance_photo_saved">Foto yang ditingkatkan disimpan</string>
+    <string name="enhance_photo_failed">Tidak dapat meningkatkan foto ini</string>
+    <string name="enhance_photo_too_large">Foto ini terlalu besar untuk peranti ini. Hidupkan semula pengecilan dalam Tetapan jika ia dimatikan.</string>
+    <string name="shrink_before_enhance">Kecilkan foto melebihi 1 megapiksel sebelum ditingkatkan</string>
+    <string name="compare_photo">Bandingkan</string>
+</resources>

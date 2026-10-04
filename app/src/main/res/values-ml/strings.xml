@@ -40,4 +40,13 @@
     <string name="save_photo_metadata">ഫോട്ടോ exif മെറ്റാഡാറ്റ സംരക്ഷിക്കുക</string>
     <string name="photo_compression_quality">ഫോട്ടോ കംപ്രഷൻ ക്വാളിറ്റി</string>
     <string name="shutter">ഷട്ടർ</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">റെസല്യൂഷൻ മെച്ചപ്പെടുത്തുക (4×)</string>
+    <string name="enhancing_photo">ഫോട്ടോ മെച്ചപ്പെടുത്തുന്നു…</string>
+    <string name="enhance_photo_saved">മെച്ചപ്പെടുത്തിയ ഫോട്ടോ സംരക്ഷിച്ചു</string>
+    <string name="enhance_photo_failed">ഈ ഫോട്ടോ മെച്ചപ്പെടുത്താനായില്ല</string>
+    <string name="enhance_photo_too_large">ഈ ഫോട്ടോ ഈ ഉപകരണത്തിന് വളരെ വലുതാണ്. ചുരുക്കൽ ഓഫാണെങ്കിൽ ക്രമീകരണത്തിൽ വീണ്ടും ഓൺ ചെയ്യുക.</string>
+    <string name="shrink_before_enhance">മെച്ചപ്പെടുത്തുന്നതിന് മുമ്പ് 1 മെഗാപിക്സലിൽ കൂടുതലുള്ള ഫോട്ടോകൾ ചുരുക്കുക</string>
+    <string name="compare_photo">താരതമ്യം</string>
 </resources>

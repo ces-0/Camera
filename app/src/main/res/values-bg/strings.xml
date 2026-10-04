@@ -40,4 +40,13 @@
     <string name="save_photo_metadata">Запазване на снимкови exif метаданни</string>
     <string name="photo_compression_quality">Ниво на компресия на снимките</string>
     <string name="shutter">Затвор</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">Подобряване на разделителната способност (4×)</string>
+    <string name="enhancing_photo">Подобряване на снимката…</string>
+    <string name="enhance_photo_saved">Подобрената снимка е запазена</string>
+    <string name="enhance_photo_failed">Тази снимка не може да бъде подобрена</string>
+    <string name="enhance_photo_too_large">Тази снимка е твърде голяма за това устройство. Включете отново смаляването в Настройки, ако е изключено.</string>
+    <string name="shrink_before_enhance">Смаляване на снимки над 1 мегапиксел преди подобряване</string>
+    <string name="compare_photo">Сравни</string>
 </resources>

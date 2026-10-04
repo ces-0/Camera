@@ -45,4 +45,13 @@
     <string name="front_camera">फ्रंट कैमरा रिज़ॉल्यूशन</string>
     <string name="photo">तस्वीर</string>
     <string name="shutter">शटर</string>
+
+    <!-- Real-ESRGAN -->
+    <string name="enhance_photo">रिज़ॉल्यूशन बेहतर करें (4×)</string>
+    <string name="enhancing_photo">फ़ोटो बेहतर की जा रही है…</string>
+    <string name="enhance_photo_saved">बेहतर फ़ोटो सहेजी गई</string>
+    <string name="enhance_photo_failed">इस फ़ोटो को बेहतर नहीं किया जा सका</string>
+    <string name="enhance_photo_too_large">यह फ़ोटो इस डिवाइस के लिए बहुत बड़ी है. अगर सिकोड़ना बंद है, तो सेटिंग में इसे फिर से चालू करें.</string>
+    <string name="shrink_before_enhance">बेहतर करने से पहले 1 मेगापिक्सेल से बड़ी फ़ोटो सिकोड़ें</string>
+    <string name="compare_photo">तुलना करें</string>
 </resources>

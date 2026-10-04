@@ -27,6 +27,7 @@ import com.google.android.material.tabs.TabLayout
 import org.fossify.camera.BuildConfig
 import org.fossify.camera.R
 import org.fossify.camera.databinding.ActivityMainBinding
+import org.fossify.camera.enhance.PhotoEnhanceUi
 import org.fossify.camera.extensions.config
 import org.fossify.camera.extensions.fadeIn
 import org.fossify.camera.extensions.fadeOut
@@ -65,6 +66,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
     private var mPreview: MyPreview? = null
     private var mediaSizeToggleGroup: MaterialButtonToggleGroup? = null
     private var mPreviewUri: Uri? = null
+    private lateinit var photoEnhance: PhotoEnhanceUi
     private var mIsHardwareShutterHandled = false
     private var mLastHandledOrientation = 0
     private var countDownTimer: CountDownTimer? = null
@@ -152,12 +154,19 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
     }
 
     override fun onDestroy() {
+        if (::photoEnhance.isInitialized) {
+            photoEnhance.hideReview()
+        }
         super.onDestroy()
         mPreview = null
         mediaSoundHelper.release()
     }
 
     override fun onBackPressedCompat(): Boolean {
+        if (::photoEnhance.isInitialized && photoEnhance.isReviewVisible()) {
+            photoEnhance.hideReview()
+            return true
+        }
         return if (!closeOptions()) {
             false
         } else {
@@ -225,6 +234,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         cameraModeHolder.beGone()
         layoutTop.settings.beGone()
         lastPhotoVideoPreview.beInvisible()
+        enhanceLastPhoto.beGone()
     }
 
     private fun tryInitCamera() {
@@ -301,6 +311,12 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
 
     private fun initializeCamera(isInPhotoMode: Boolean) {
         setContentView(binding.root)
+        photoEnhance = PhotoEnhanceUi(
+            activity = this,
+            binding = binding,
+            canOfferEnhance = { isInPhotoMode() && !isThirdPartyIntent() },
+            currentPhoto = { mPreviewUri },
+        )
         initButtons()
         initModeSwitcher()
         binding.apply {
@@ -384,6 +400,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         }
 
         lastPhotoVideoPreview.setOnClickListener { showLastMediaPreview() }
+        photoEnhance.attach()
 
         layoutTop.apply {
             toggleFlash.setOnClickListener { mPreview!!.handleFlashlightClick() }
@@ -577,6 +594,9 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         mPreviewUri = Uri.withAppendedPath(uri, lastMediaId.toString())
 
         loadLastTakenMedia(mPreviewUri)
+        if (::photoEnhance.isInitialized) {
+            photoEnhance.refreshActionButton()
+        }
     }
 
     private fun loadLastTakenMedia(uri: Uri?) {
@@ -671,6 +691,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
             shutter,
             layoutTop.settings,
             lastPhotoVideoPreview,
+            enhanceLastPhoto,
             layoutTimer.timerOff,
             layoutTimer.timer3s,
             layoutTimer.timer5s,
@@ -730,6 +751,9 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
     override fun onMediaSaved(uri: Uri) {
         binding.layoutTop.changeResolution.isEnabled = true
         loadLastTakenMedia(uri)
+        if (isInPhotoMode() && !isThirdPartyIntent()) {
+            photoEnhance.onStillPhotoSaved(uri)
+        }
         if (isImageCaptureIntent()) {
             Intent().apply {
                 data = uri
@@ -777,6 +801,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
 
             toggleCamera.fadeOut()
             lastPhotoVideoPreview.fadeOut()
+            enhanceLastPhoto.fadeOut()
 
             layoutTop.changeResolution.isEnabled = false
             layoutTop.settings.isEnabled = false
@@ -794,6 +819,9 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
 
             toggleCamera.fadeIn()
             lastPhotoVideoPreview.fadeIn()
+            if (::photoEnhance.isInitialized) {
+                photoEnhance.refreshActionButton()
+            }
 
             videoRecCurrTimer.text = 0.getFormattedDuration()
             videoRecCurrTimer.beGone()
@@ -1014,7 +1042,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
     }
 
     private fun hideViewsOnTimerStart() = binding.apply {
-        arrayOf(topOptions, toggleCamera, lastPhotoVideoPreview, cameraModeHolder).forEach {
+        arrayOf(topOptions, toggleCamera, lastPhotoVideoPreview, cameraModeHolder, enhanceLastPhoto).forEach {
             it.fadeOut()
             it.beInvisible()
         }
@@ -1024,6 +1052,9 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         arrayOf(topOptions, toggleCamera, lastPhotoVideoPreview, cameraModeHolder).forEach {
             it.fadeIn()
             it.beVisible()
+        }
+        if (::photoEnhance.isInitialized) {
+            photoEnhance.refreshActionButton()
         }
 
         timerText.beGone()
